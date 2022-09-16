@@ -213,7 +213,7 @@ def run(
 def parse_opt():
     parser = argparse.ArgumentParser()
     #change data
-    parser.add_argument('--weights', nargs='+', type=str, default='runs/train/exp42/weights/best.pt', help='model path(s)')
+    parser.add_argument('--weights', nargs='+', type=str, default='runs/train/exp43/weights/best.pt', help='model path(s)')
     parser.add_argument('--source', type=str, default='images', help='source')
     #parser.add_argument('--source', type=str, default=ROOT / 'data/images', help='file/dir/URL/glob, 0 for webcam')
 
